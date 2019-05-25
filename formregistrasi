@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form pendaftaran</title>
+</head>
+<body>
+    <h1>Selamat Datang</h1>
+    <hr width="20%" align="left">
+    <h3>Lengkapi data anda untuk mendaftar.</h3>
+    <table>
+    	<tr>
+    	    <td valign="top">Nama Lengkap</td>
+    	    <td><input type="text" name="nama" placeholder="Masukan nama anda"></td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Username</td>
+    	    <td><input type="text" name="username" placeholder="Masukan username"></td>
+    	</tr>
+    	<tr>
+               <td valign="top">Password</td>
+               <td><input type="password" name="password" placeholder="Password"></td>
+    	</tr>
+    	<tr>
+    		<td>Jenis Kelamin</td>
+    	    <td>
+    	    	<input type="radio" name="l">Pria
+    	    	<input type="radio" name="p">wanita
+    	    </td>
+    	</tr>
+    	<tr>
+    		<td>Hoby</td>
+    		<td>
+    			 <input type="checkbox" name="nama_checkbox"/>Menyanyi
+				 <input type="checkbox" name="nama_checkbox"/>Olahraga
+				 <input type="checkbox" name="nama_checkbox"/>Bermain
+    		</td>
+    	</tr> 
+    	<tr>
+    	    <td valign="top">Harapan Anda:</td>
+    	    <td><textarea placeholder="isilah biografi singkat anda" cols="30" rows="5"></textarea></td>
+    	</tr>
+    	<tr>
+    	    <td valign="top">Minat</td>
+    	    <td>
+    	        <select>
+    	        <option>Web Programing</option>
+			    <option>Junior Andorid Devloper</option>
+			    <option>Andorid Devloper</option>
+    	        </select>
+    	    </td>
+    	</tr>
+    	<br>
+    	<tr>
+    	    <td colspan="2"><br><input type="submit" value="Daftar Sekarang"></td>
+    	</tr>
+    </table>
+</body>
+</html>
